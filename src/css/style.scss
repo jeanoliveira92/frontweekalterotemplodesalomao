@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+@mixin responsive() {
+    @media screen and (max-width: 960px) {
+        @content;
+    }
+}
+
+@mixin responsiveLg() {
+    @media screen and (max-width: 1400px) {
+        @content;
+    }
+}
+
+@import "partials/colors";
+@import "partials/spacing";
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background: $blue-dark;
+
+    -webkit-font-smoothing: antialiased;
+
+    @include responsive() {
+        overflow: initial;
+        overflow-x: hidden;
+    }
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $brown-dark;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.container-item-1 {
+    p {
+        font-size: 16px;
+        color: $gray-3;
+        letter-spacing: 1px;
+        line-height: 140%;
+    }
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+
+    pointer-events: none;
+
+    &:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    div {
+        width: 80%;
+        height: 80%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 40px;  
+
+        .fechar {
+            position: absolute;
+            width: 30px;
+            right: -15px;
+            top: -20px;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 5px;
+            background: $brown;
+            border-radius: 50%;
+            font-size: 16px;
+            color: $brown-dark;
+        }
+
+        iframe {
+            height: 100%;
+            width: 80%;
+        }
+    }
+}
+
+@import "partials/layout";
+@import "partials/menu";
+@import "partials/animations";
