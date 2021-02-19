@@ -41,7 +41,7 @@ Projeto frontweb de uma webpage com UI design e motion design com o tema Spider-
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/7xpmZjyxjpn9hDU8RZB7P4/Spider-man-Copy?node-id=0%3A1). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/ltoUBtC2LSfNxF8uJ5DAOX/Templo-de-Salom%C3%A3o). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
 ## :memo: Licença
 
