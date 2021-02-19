@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="#FrontWeek​​ Alterado - Projeto O Templo de Salomão" title="" src="https://raw.githubusercontent.com/jeanoliveira92/frontweekalterotemplodesalomao/b1eeaeff5fc82e4ddb4aa16f7cff6fc49642bee8/src/img/TS.png" width="250px" />
+    <img alt="#FrontWeek​​ Alterado - Projeto O Templo de Salomão" title="" src="https://raw.githubusercontent.com/jeanoliveira92/frontweekalterotemplodesalomao/main/src/img/TS.png" width="250px" />
 </h1>
 
 <p align="center">
